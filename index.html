@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-JetGro-Groceries At Jet Speed</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="ManaMart delivers groceries from local Kirana stores to your doorstep through WhatsApp ordering. No app required.">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!--Navigation Bar-->
+
+
+<header class="navbar">
+    
+    <div class="logo">
+        <img src="jetgro logo.png" alt="JetGro">
+    </div>
+
+    <nav>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#subscription">Subscription</a></li>
+            <li><a href="#our-story">About</a></li>
+            <li><a href="#footer1">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-right">
+
+        <a href="https://wa.me/919490920566" class="nav-button" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            </svg>
+            Order Now
+        </a>
+
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+
+     <!--Hero Section-->
+
+
+
+
+
+<section class="hero-section" id="Home">
+
+    <div class="container hero-container">
+
+        <!-- Left Content -->
+        <div class="hero-content">
+
+            <div class="tagline">
+                <span class="ring-dot"></span>
+                <span>Now Available In Your City</span>
+            </div>
+
+            <h1 class="hero-title">
+                Fresh Groceries <br>
+                <span class="text-gradient">
+                    Delivered To Your Doorstep
+                </span>
+            </h1>
+
+            <p class="hero-desc">
+                Order groceries, vegetables, fruits, snacks, dairy products,
+                beverages, and daily essentials directly through WhatsApp.
+                Fast delivery from local stores to your home.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="https://wa.me/919490920566?text=Hi"
+                   target="_blank"
+                   class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i>
+                    Order Now
+                </a>
+
+                <a href="#categories" class="btn btn-secondary">
+                    Explore Categories
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-image-container">
+
+            <div class="hero-blob"></div>
+
+            <img src="image.jpeg"
+                 alt="ManaMart Delivery"
+                 class="hero-img">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+  
+
+     <!--what can we order-->
+
+
+
+
+<section id="categories" class="categories-section">
+
+    <div class="container">
+
+        <div class="section-header">
+            <span class="section-tag">Categories</span>
+            <h2 class="section-title">What Can You Order?</h2>
+            <p class="section-subtitle">
+                Everything you need, picked fresh and delivered fast.
+            </p>
+        </div>
+
+        <div class="categories-grid">
+
+            <div class="category-card reveal">
+                <div class="category-icon color-1">
+                    <i class="fas fa-shopping-basket"></i>
+                </div>
+                <h3>Groceries</h3>
+                <p>Daily household consumables and pantry essentials.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-2">
+                    <i class="fas fa-carrot"></i>
+                </div>
+                <h3>Vegetables</h3>
+                <p>Fresh farm vegetables delivered directly to your home.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-3">
+                    <i class="fas fa-apple-alt"></i>
+                </div>
+                <h3>Fruits</h3>
+                <p>Seasonal and exotic fruits packed with nutrition.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-4">
+                    <i class="fas fa-cheese"></i>
+                </div>
+                <h3>Dairy & Bakery</h3>
+                <p>Milk, curd, butter, bread and bakery products.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-5">
+                    <i class="fas fa-drumstick-bite"></i>
+                </div>
+                <h3>Meat & Seafood</h3>
+                <p>Fresh meat, chicken, fish and seafood selections.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-6">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Food Staples</h3>
+                <p>Rice, pulses, oils, flour and everyday essentials.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-7">
+                    <i class="fas fa-cookie-bite"></i>
+                </div>
+                <h3>Snacks & Drinks</h3>
+                <p>Biscuits, chocolates, chips, juices and beverages.</p>
+            </div>
+
+            <div class="category-card reveal">
+                <div class="category-icon color-8">
+                    <i class="fas fa-pump-soap"></i>
+                </div>
+                <h3>Household Items</h3>
+                <p>Cleaning supplies, detergents and personal care.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+      <!--how it works-->
+
+
+
+
+
+ <section class="works-section" id="how-it-works">
+
+    <div class="works-left">
+
+        <span class="works-tag">
+            Simple Whatsapp Ordering
+        </span>
+
+        <h2>How JetGro Works</h2>
+
+        <p class="works-description">
+            Order groceries and daily essentials directly through WhatsApp.
+            No app downloads, no complicated signup process — just fast and simple ordering.
+        </p>
+
+        <div class="steps-wrapper">
+
+            <div class="work-step">
+                <div class="step-number">01</div>
+
+                <div class="step-content">
+                    <h3>Send Your Order</h3>
+                    <p>Share your grocery list through WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="work-step">
+                <div class="step-number">02</div>
+
+                <div class="step-content">
+                    <h3>Instant Confirmation</h3>
+                    <p>Receive pricing, availability and delivery details instantly.</p>
+                </div>
+            </div>
+
+            <div class="work-step">
+                <div class="step-number">03</div>
+
+                <div class="step-content">
+                    <h3>Fast Delivery</h3>
+                    <p>Get groceries delivered to your doorstep within minutes.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="works-right">
+
+        <div class="phone-container">
+
+            <div class="phone-notch"></div>
+
+            <div class="phone-screen">
+
+                <div class="chat-header">
+
+                    <img src="logo1.jpeg" alt="JetGro">
+
+                    <div>
+                        <h4>JetGro</h4>
+                        <span>Online</span>
+                    </div>
+
+                </div>
+
+                <div class="chat-area">
+
+                    <div class="message customer">
+                        Hi 👋 I need vegetables and milk.
+                    </div>
+
+                    <div class="message store">
+                        Sure ✅ Delivery in 10 minutes.
+                    </div>
+
+                    <div class="message customer">
+                        Great, please deliver.
+                    </div>
+
+                    <div class="message store">
+                        Order Confirmed 🚀
+                    </div>
+
+                </div>
+
+                <a href="https://wa.me/919490920566?text=Hi"
+                   class="chat-btn"
+                   target="_blank">
+
+                    <i class="fab fa-whatsapp"></i>
+                    Order Now
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+      <!-- Subscription Section -->
+
+
+
+<section class="subscription-section" id="subscription">
+
+    <div class="subscription-left">
+
+        <span class="subscription-tag">
+            For Kirana Store Owners
+        </span>
+
+        <h2>Grow Your Kirana Store With JetGro</h2>
+
+        <p class="subscription-description">
+            Join JetGro and start receiving online grocery orders from customers in your area.
+            Increase sales, expand your reach, and grow your business without any technical setup.
+        </p>
+
+        <div class="subscription-benefits">
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-store"></i>
+                </div>
+
+                <div>
+                    <h3>More Customers</h3>
+                    <p>Reach thousands of nearby customers through JetGro.</p>
+                </div>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+
+                <div>
+                    <h3>More Orders</h3>
+                    <p>Receive grocery orders directly on WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+
+                <div>
+                    <h3>Business Growth</h3>
+                    <p>Increase daily sales and expand your local presence.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="subscription-right">
+
+        <div class="subscription-card">
+
+            <div class="subscription-header">
+                <h3>Partner Subscription</h3>
+                <span>Starting at</span>
+
+                <div class="price">
+                 <del>₹4999</del> ₹2999 <small>/ Month</small>
+                </div>
+            </div>
+
+            <ul class="subscription-features">
+
+                <li>✓ Unlimited Order Requests</li>
+                <li>✓ WhatsApp Order Management</li>
+                <li>✓ Featured Store Listing</li>
+                <li>✓ Customer Support</li>
+                <li>✓ Store Promotion Assistance</li>
+                <li>✓ Local Area Visibility</li>
+
+            </ul>
+
+            <a href="https://wa.me/919490920566?text=I%20want%20to%20join%20ManaMart%20as%20a%20store%20partner"
+               class="subscription-btn"
+               target="_blank">
+
+                Join As Partner
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+       <!-- why choose us -->
+
+
+
+<section class="why-section" id="why-manamart">
+
+    <div class="section-header">
+        <span class="section-tag">Why Choose JetGro</span>
+        <h2>Everything You Need, Delivered Better</h2>
+        <p>
+            Experience smarter grocery shopping with speed, freshness, and convenience.
+        </p>
+    </div>
+
+    <div class="bento-grid">
+
+        <div class="bento-card large">
+            <div class="icon-box">
+                <i class="fas fa-shipping-fast"></i>
+            </div>
+
+            <h3>~15 to 20 Minutes Delivery</h3>
+
+            <p>
+                Groceries delivered from nearby stores directly to your doorstep.
+            </p>
+
+            <span class="big-number">~15m</span>
+        </div>
+
+        <div class="bento-card">
+            <div class="icon-box">
+                <i class="fas fa-leaf"></i>
+            </div>
+
+            <h3>Fresh Products</h3>
+
+            <p>
+                Daily fresh vegetables, fruits and groceries.
+            </p>
+        </div>
+
+        <div class="bento-card">
+            <div class="icon-box">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+
+            <h3>WhatsApp Ordering</h3>
+
+            <p>
+                Order with a simple message.
+            </p>
+        </div>
+
+        <div class="bento-card wide">
+            <div class="icon-box">
+                <i class="fas fa-tags"></i>
+            </div>
+
+            <h3>Affordable Prices</h3>
+
+            <p>
+                Local store pricing with exclusive ManaMart offers and savings.
+            </p>
+        </div>
+
+        <div class="bento-card">
+            <div class="icon-box">
+                <i class="fas fa-store"></i>
+            </div>
+
+            <h3>Trusted Kirana Stores</h3>
+
+            <p>
+                Supporting local businesses and communities.
+            </p>
+        </div>
+
+        <div class="bento-card">
+            <div class="icon-box">
+                <i class="fas fa-headset"></i>
+            </div>
+
+            <h3>Customer Support</h3>
+
+            <p>
+                Quick assistance whenever you need help.
+            </p>
+        </div>
+
+        <div class="bento-card">
+    <div class="icon-box">
+        <i class="fas fa-user-check"></i>
+    </div>
+
+    <h3>No Signup Required</h3>
+
+    <p>
+        Skip registrations and lengthy forms. Simply send your grocery list on WhatsApp and place your order instantly.
+    </p>
+</div>
+
+    </div>
+
+</section>
+
+
+
+
+       <!--about grozo -->
+
+
+
+<section id="our-story" class="manamart-story">
+
+    <div class="story-wrapper">
+
+        <div class="story-photo-area">
+            <img src="aboutimage.png"
+                 alt="ManaMart Story"
+                 class="story-photo">
+        </div>
+
+        <div class="story-details">
+
+            <span class="story-badge">
+                About JetGro
+            </span>
+
+            <h2 class="story-heading">
+                Bringing Local Stores Closer To Every Home
+            </h2>
+
+            <p class="story-text">
+                JetGro is a modern grocery delivery platform that connects
+                customers with trusted local kirana stores. Through WhatsApp
+                ordering, we make grocery shopping simple, fast, and convenient
+                without requiring any app downloads or signups.
+            </p>
+
+            <div class="story-highlights">
+
+                <div class="highlight-box">
+                    <div class="highlight-icon green-box">
+                        <i class="fas fa-eye"></i>
+                    </div>
+
+                    <h4>Our Vision</h4>
+
+                    <p>
+                        To become India's most trusted hyperlocal grocery
+                        delivery network.
+                    </p>
+                </div>
+
+                <div class="highlight-box">
+                    <div class="highlight-icon orange-box">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+
+                    <h4>Our Mission</h4>
+
+                    <p>
+                        Deliver fresh groceries and daily essentials
+                        to every household quickly and reliably.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+        <!--customer reviews-->
+
+
+
+
+    <section class="customer-reviews">
+
+    <div class="review-header">
+        <span class="review-tag">Customer Reviews</span>
+
+        <h2>What Our Customers Say</h2>
+
+        <p>
+            Loved and trusted by local households across the city.
+        </p>
+    </div>
+
+    <div class="review-slider">
+
+        <div class="review-track">
+
+            <!-- CARD 1 -->
+            <div class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    Ordering through WhatsApp is so simple.
+                    I send my list and groceries arrive quickly.
+                </p>
+
+                <h4>Priya K.</h4>
+                <span>Homemaker</span>
+
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    Fresh vegetables and excellent delivery.
+                    Highly recommended.
+                </p>
+
+                <h4>Rahul M.</h4>
+                <span>Software Engineer</span>
+
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    No app installation required.
+                    WhatsApp ordering is very convenient.
+                </p>
+
+                <h4>Anand Rao</h4>
+                <span>Professor</span>
+
+            </div>
+
+            <!-- DUPLICATES FOR LOOP -->
+
+            <div class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    Ordering through WhatsApp is so simple.
+                    I send my list and groceries arrive quickly.
+                </p>
+
+                <h4>Priya K.</h4>
+                <span>Homemaker</span>
+
+            </div>
+
+            <div class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    Fresh vegetables and excellent delivery.
+                    Highly recommended.
+                </p>
+
+                <h4>Rahul M.</h4>
+                <span>Software Engineer</span>
+
+            </div>
+
+            <div class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    No app installation required.
+                    WhatsApp ordering is very convenient.
+                </p>
+
+                <h4>Anand Rao</h4>
+                <span>Professor</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+
+
+
+        <!--banner-->
+
+
+    <section class="cta-banner-section">
+            <div class="container">
+                <div class="cta-banner-card reveal">
+                    <div class="cta-content">
+                        <h2>Ready To Order Your Essentials?</h2>
+                        <p>Skip the queues, avoid heavy app downloads. Experience high-speed quick-commerce over a standard WhatsApp chat now.</p>
+                    </div>
+                    <div class="cta-action">
+                        <a href="https://wa.me/919490920566?text=Hi" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-lg">
+                            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--footer-->
+
+
+    <footer class="mm-footer" id="footer1">
+
+    <div class="mm-footer-container">
+
+        <!-- Brand -->
+
+        <div class="mm-footer-brand">
+
+            <img src="footerlogo.jpeg"
+                 alt="JetGro Logo"
+                 class="mm-footer-logo">
+
+            <p>
+                JetGro brings groceries, vegetables, fruits and daily essentials
+                from trusted local stores directly to your doorstep.
+            </p>
+
+            <a href="https://wa.me/919490920566"
+               target="_blank"
+               class="footer-whatsapp">
+
+                <i class="fab fa-whatsapp"></i>
+                Order on WhatsApp
+
+            </a>
+
+        </div>
+
+        <!-- Links -->
+
+        <div class="mm-footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#subscription">Subscription</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="mm-footer-contact">
+
+            <h3>Contact Us</h3>
+
+            <p>
+                <i class="fas fa-phone"></i>
+                +91 9980588990
+            </p>
+
+            <p>
+                <i class="fas fa-envelope"></i>
+                jetgroservices@gmail.com
+            </p>
+
+            <p>
+                <i class="fas fa-map-marker-alt"></i>
+                Telangana, India
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="mm-footer-bottom">
+
+        <p>
+            © 2026 JetGro. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- Back To Top -->
+
+<button id="backTopBtn">
+
+    <i class="fas fa-chevron-up"></i>
+
+</button>
+
+
+
+
+
+ <script src="script.js"></script>   
+</body>
+</html>

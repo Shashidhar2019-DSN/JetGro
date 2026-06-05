@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JetGro About Us</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    height:100vh;
+    overflow:hidden;
+    background:#f4f6f9;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.about-section{
+    background:linear-gradient(135deg,#16a34a,#14532d);
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.about-section h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.about-section p{
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.5;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:20px;
+}
+
+.feature{
+    text-align:center;
+}
+
+.feature span{
+    font-size:30px;
+}
+
+.feature h4{
+    margin-top:5px;
+}
+
+.team-section{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:20px;
+}
+
+.team-title{
+    text-align:center;
+    font-size:32px;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.team-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.team-card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.team-card img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #16a34a;
+    margin-bottom:10px;
+}
+
+.team-card h3{
+    font-size:20px;
+    margin-bottom:8px;
+}
+
+.team-card h4{
+    color:#16a34a;
+    font-size:16px;
+}
+
+@media(max-width:1024px){
+    body{
+        overflow:auto;
+    }
+
+    .team-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:768px){
+    .team-container{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="about-section">
+        <h1>About Us</h1>
+
+        <p>
+            JetGro delivers fresh groceries and daily essentials at Jet Speed.
+            We combine technology, quality products, and reliable delivery
+            to make grocery shopping simple and convenient.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <span>⚡</span>
+                <h4>Fast Delivery</h4>
+            </div>
+
+            <div class="feature">
+                <span>🥬</span>
+                <h4>Fresh Products</h4>
+            </div>
+
+            <div class="feature">
+                <span>🛡️</span>
+                <h4>Safe & Reliable</h4>
+            </div>
+
+            <div class="feature">
+                <span>❤️</span>
+                <h4>Customer First</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-section">
+
+        <h2 class="team-title">Meet Our Team</h2>
+
+        <div class="team-container">
+
+            <div class="team-card">
+                <img src="rambabu.jpeg">
+                <h3>Rambabu B</h3>
+                <h4>Founder & Chief Executive Officer</h4>
+            </div>
+
+            <div class="team-card">
+                <img src="vinay.jpeg">
+                <h3>Kumara Swami V</h3>
+                <h4> Co-Founder & Chief Technology Officer</h4>
+            </div>
+
+            <div class="team-card">
+                <img src="Ganesh.png">
+                <h3>Ganesh V</h3>
+                <h4>Co-Founder & Chief Operating   Officer</h4>
+            </div>
+
+            <div class="team-card">
+                <img src="shashi.png">
+                <h3>Shashidhar Naik D</h3>
+                <h4>Co-Founder & Marketing Head</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
